@@ -14,10 +14,10 @@ import Typo from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import AppBar from '@material-ui/core/AppBar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/core/Menu';
-import ToolBar from '@material-ui/core/Toolbar';
+//import AppBar from '@material-ui/core/AppBar';
+//import IconButton from '@material-ui/core/IconButton';
+//import MenuIcon from '@material-ui/core/Menu';
+//import ToolBar from '@material-ui/core/Toolbar';
 
 //makestyle
 const useStyle = makeStyles ({
@@ -66,7 +66,7 @@ function App() {
       <Container maxWidth="sm">
         <div className="App">
           <header className="App-header">
-            <AppBar>
+            /*<AppBar>
               <ToolBar>
                 <IconButton>
                   <MenuIcon/>
@@ -78,7 +78,7 @@ function App() {
                   Login
                 </Button>
               </ToolBar>
-            </AppBar>
+            </AppBar>*/
             <Typo variant="h3" component="div">
               Welcome to Shambhavi's world!
             </Typo>
