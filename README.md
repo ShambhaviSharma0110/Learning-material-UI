@@ -8,4 +8,5 @@ This is a repository containing some basic elements of Material UI such as:
 -appbar
 -grid
 -container
+-paper
 -responsive design
